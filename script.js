@@ -15,9 +15,6 @@ function buttonClick() {
         $('#emailid').val('')
         $('#contactno').val('')
         $('#message').val('')
-        setTimeout(function() {
-            $("#display-info").fadeOut().empty();
-          }, 5000);
         return false
     }
 
