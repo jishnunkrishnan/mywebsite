@@ -11,7 +11,15 @@ function buttonClick() {
 
         var text = "You'll be contacted soon!"
         document.getElementById("display-info").innerHTML=text
+        $('#name').val('')
+        $('#emailid').val('')
+        $('#contactno').val('')
+        $('#message').val('')
+        setTimeout(function() {
+            $("#display-info").fadeOut().empty();
+          }, 5000);
         return false
     }
 
 }
+
